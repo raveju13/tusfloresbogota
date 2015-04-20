@@ -1,0 +1,448 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fuentes/fonts/icomoon.eot?-dksur4');
+	src:url('fuentes/fonts/icomoon.eot?#iefix-dksur4') format('embedded-opentype'),
+		url('fuentes/fonts/icomoon.woff?-dksur4') format('woff'),
+		url('fuentes/fonts/icomoon.ttf?-dksur4') format('truetype'),
+		url('fuentes/fonts/icomoon.svg?-dksur4#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+
+.icon-lapiz:before {
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+	content: "\e908";
+}
+
+.icon-estrella:before {
+	content: "\e9d7";
+	color: red;
+	float: right;
+
+}
+
+.icon-flecha_arriba:before {
+	content: "\ea32";
+}
+
+.icon-flecha_abajo:before {
+	content: "\ea36";
+}
+
+.menu:hover
+{
+	background: #483529;
+}
+.menu_ipad:hover
+{
+	background: #483529;
+}
+
+
+.redes
+{
+	left: 5%;
+	padding: 0;
+	position: relative;	
+	width: 90%;
+	text-align: center;
+}
+.redes figure
+{
+	display: inline-block;
+	margin-right:0.5em;
+}
+.redes .goo
+{
+	float: left;
+}
+
+.redes .face
+{
+	float: right;
+}
+
+.redes figure img
+{
+	float: left;
+	width: 40px;
+}
+.
+
+a
+{
+	color: white;
+}
+
+body
+{
+	background: "white";
+	font-family: 'Playball', cursive;
+	font-size: 16px;
+}
+
+header
+{
+	background: #483529;
+	overflow: hidden;
+	padding: .1em;
+}
+
+header figure
+{
+	float: left;
+	margin-left: .5em;
+	margin-right: 1em;
+} 
+
+header #logo
+{
+	border-right: 1px solid white;
+}
+
+header #logo img 
+{
+	margin-right: 0.5em;
+	padding-right: 0.5em; 
+	width: 80px;
+}
+
+header h1
+{
+	color: #ffb9ac;
+	font-size: 2em;
+	padding-left: 1em;
+}
+header h1 p:first-child
+{
+	margin:0;
+}
+header h1 p:last-child
+{
+	margin: 0;
+}
+
+header #horarios
+{
+	display: block;
+	position: absolute;
+	margin: 1em 5em 0 0 ;
+	right: 0;
+	top: 0;
+	
+}
+header #horarios p
+{
+	font-family: "Myriad Pro"
+}
+header #horarios p:first-child
+{
+	color: #ffe1dd;
+	margin: 0;
+}
+header #horarios p:last-child
+{
+	color: white;
+	margin: 0;
+}
+
+
+nav
+{
+	background: rgb(250,148,140);
+	display: block;
+	font-family: "Palatino Linotype";
+	font-size: 1.2em;
+	position: relative;
+}
+
+nav ul
+{
+	list-style: none;
+	margin-top: 0;
+	padding-left: 0.5em;
+	margin-right: 1.2em;
+	text-align: center;
+		
+}
+
+nav ul li
+{
+	display: inline-block;		
+}
+
+nav ul li a
+{
+	color: white;
+	margin: 0em;
+	padding: 0 0.5em;
+	text-decoration: none;
+}
+
+nav ul #regalos
+{
+	background: #fa948c;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 10px;
+	border-radius: 5px;
+	padding: 0.25em 0.15em;
+	top: -0.25em;
+	right: 0.25em;
+	position: absolute;
+}
+
+nav ul #regalos a
+{
+	font-style: italic;
+	padding: 0.5em;
+	text-shadow: rgba(0,0,0,0.5) 5px 5px 10px;
+
+}
+
+nav ul #regalos a:hover
+{
+	font-size: 110%;
+} 
+
+
+footer
+{
+	background: rgba(250,148,140,0.8);
+	color: white;
+	display: block;
+	font-family: "Palatino Linotype";
+	margin-top: 2em;
+	padding: 0.5em;
+	text-align: center;
+	width: 100%;
+}
+footer p:first-child
+{
+	margin: 0;
+}
+footer p:nth-child(2)
+{
+	margin: 0;
+}
+footer p:last-child
+{
+	margin-top:0;
+}
+footer p:last-child:after
+{
+	content: "- "
+}
+footer p:last-child:before
+{
+	content: " -"
+}
+
+
+#banner_domicilios
+{
+	background: #d6d3d2;	
+	position: relative;
+	top: -1.19em;
+	z-index: -1;
+
+}
+#banner_domicilios .domicilios
+{
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+}
+#banner_domicilios .domicilios .imagen_domicilio
+{
+	
+	height: 17px;
+	padding: 0.5em;
+	margin: 0 0.5em;
+	width: 25px;
+	
+}
+#banner_domicilios .domicilios .imagen_domicilio img
+{
+	width: 100%;	
+}
+#banner_domicilios .domicilios .titulo_domicilio
+{
+	color: white;
+	font-size: 0.9em;
+	position: absolute;
+	right: 1em;
+	text-shadow:rgba(0,0,0,0.5) 5px 5px 10px;
+	top:-0.1em;
+}
+
+
+#contenido_arreglos
+{
+	margin: 0.5em;
+	top: -1.5em;
+
+	
+}
+#contenido_arreglos .arreglos
+{
+	margin-top: 1em;
+	border-bottom: 4px solid rgba(72,53,41,0.8);
+	margin-bottom: 3em;
+	min-height: 116px;
+	position: relative;
+
+}
+#contenido_arreglos a
+{
+	font-family: "Myriad Pro";
+	text-decoration: none;
+	color: black;
+}
+#contenido_arreglos .arreglos .img_arreglo
+{
+	float: left;
+	margin: 0;
+	padding-right: 0.5em;	
+}
+#contenido_arreglos .arreglos .img_arreglo img
+{
+	border: solid 1.5px black;
+	width: 106px;
+	height: 116px;
+}
+#contenido_arreglos .titulo_arreglo
+{
+	font-size: 1.13em;
+	margin: 0.5em 0 0 0;
+}
+#contenido_arreglos .contenido_arreglo
+{
+	font-size: 0.75em;
+	font-family: "Palatino Linotype";
+	margin: 1em 0 0 0;
+}
+#contenido_arreglos .precio_arreglo
+{
+	text-align: left;
+}
+#contenido_arreglos .precio_arreglo .precio
+{
+	background-color: #5d493d;
+	border-radius: 0.2em;
+	color: white;
+	margin: 0.1em;
+	padding: 0.2em;
+}
+#contenido_arreglos .precio_arreglo .fecha
+{
+	color: #AAA;
+}
+#contenido_arreglos .autor
+{
+	color: black;
+	font-size: 0.75em;
+	margin: 0.8em;
+	text-align: right;
+}
+
+#contenido_arreglos .votacion
+{
+	left: 5%;
+	margin: 0.5em 0 1em 0;
+	position: absolute;
+	top: 100%;
+	width: 90%;
+}
+@media only  screen and (max-width: 768px){
+	header #horarios
+	{
+		display: none;
+	}
+	.banner_promocional
+	{
+		display: none;
+	}	
+	.menu_ipad
+	{
+		display: none;		
+	}
+}
+
+@media screen and (min-width: 768px){
+	
+	nav
+	{
+		margin-top: -0.5em;
+		left: 10%;		
+		width: 80%;
+	}
+		header h1
+	{
+		font-size: 2.2em;
+	}
+	header #logo img 
+	{
+		width: 122px;
+	}
+	
+	.banner_promocional
+	{
+		margin: 0 auto;	
+		position: relative;
+		top: -1.2em;
+		width: 602px;	
+
+	}
+	.banner_promocional img
+	{
+		width: 100%;
+	}
+	#banner_domicilios
+	{
+		left: 10%;	
+		top: -1.2em;	
+		width: 80%;
+	}
+	#contenido_arreglos
+	{
+		margin-left:2em; 
+		text-align: center;
+	}
+
+	#contenido_arreglos .arreglos
+	{	
+		display: inline-block;
+	}
+	#contenido_arreglos .arreglos:nth-child(odd)
+	{
+		margin: 0 0.5em; 
+	}
+}
+
+@media screen and (min-width: 1200px){
+	header h1
+	{
+		font-size: 4.3em;
+	}
+	header #logo img 
+	{
+		width: 191px;
+	}
+	.banner_promocional
+	{
+		width: 1000px;	
+	}
+}
+
