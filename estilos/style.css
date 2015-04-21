@@ -90,7 +90,7 @@ a
 body
 {
 	background: "white";
-	font-family: 'Playball', cursive;
+	font-family: 'Harrington';
 	font-size: 16px;
 }
 
@@ -157,6 +157,24 @@ header #horarios p:last-child
 {
 	color: white;
 	margin: 0;
+}
+
+header #busqueda
+{
+	display: block;
+	float: right;
+	margin: -4em 8.5em 0 0 ;
+}
+header article figure
+{
+	display: block;
+	float: right;
+	margin: -4em 6em 0 0 ;
+}
+
+header #iconoBuscar img
+{
+	width: 24px;
 }
 
 
@@ -370,6 +388,16 @@ footer p:last-child:before
 	{
 		display: none;
 	}
+	header #busqueda
+	{
+		display: none;
+	}
+	header #iconoBuscar
+	{
+		display: none;
+	}
+
+
 	.banner_promocional
 	{
 		display: none;
@@ -428,20 +456,5 @@ footer p:last-child:before
 	#contenido_arreglos .arreglos:nth-child(odd)
 	{
 		margin: 0 0.5em; 
-	}
-}
-
-@media screen and (min-width: 1200px){
-	header h1
-	{
-		font-size: 4.3em;
-	}
-	header #logo img 
-	{
-		width: 191px;
-	}
-	.banner_promocional
-	{
-		width: 1000px;	
 	}
 }
